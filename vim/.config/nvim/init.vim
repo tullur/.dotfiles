@@ -1,6 +1,3 @@
-" Polyglot
-let g:polyglot_disable = ['ruby']
-
 " Vim
 set encoding=UTF-8
 
