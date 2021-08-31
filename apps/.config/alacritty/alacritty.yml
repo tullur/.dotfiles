@@ -1,0 +1,43 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 6
+    y: 6
+
+  dynamic_padding: false
+
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+
+import:
+  - ~/.config/alacritty/themes/solarized/dark.yml
+
+background_opacity: 1.5
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+
+  size: 12
+
+  offset:
+    x: 0
+    y: 1
+
+draw_bold_text_with_bright_colors: true
+
+cursor:
+  style:
+    shape: Underline
+    blinking: On
+
+  blink_interval: 500
+
+live_config_reload: true
