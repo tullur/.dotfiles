@@ -16,15 +16,15 @@ require'nvim-treesitter.configs'.setup {
   },
 
   ensure_installed = {
-		"vim",
+    "vim",
     "lua",
-		"ruby",
+    "ruby",
     "toml",
     "json",
     "yaml",
     "html",
     "css",
-		"scss"
+    "scss"
   },
 }
 EOF

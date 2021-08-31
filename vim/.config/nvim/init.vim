@@ -10,8 +10,6 @@ filetype plugin indent on
 
 set smarttab
 set ignorecase
-set tabstop=2
-set shiftwidth=2
 set ai
 set si
 set hlsearch
@@ -19,6 +17,8 @@ set number
 
 set nowrap
 set lazyredraw
+
+set tabstop=2 shiftwidth=2 expandtab
 
 " Imports
 runtime ./plug.vim

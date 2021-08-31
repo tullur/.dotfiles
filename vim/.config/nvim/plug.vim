@@ -18,25 +18,25 @@ Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 
 if has('nvim')
-	Plug 'neovim/nvim-lspconfig'
-	Plug 'glepnir/lspsaga.nvim'
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'glepnir/lspsaga.nvim'
 
-	Plug 'nvim-lua/plenary.nvim'
-	Plug 'nvim-lua/completion-nvim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-lua/completion-nvim'
 
-	Plug 'nvim-lua/popup.nvim'
-	Plug 'nvim-telescope/telescope.nvim'
+  Plug 'nvim-lua/popup.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
 
-	" File Explorer
-	Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-	Plug 'kristijanhusak/defx-git'
-	Plug 'kristijanhusak/defx-icons'
+  " File Explorer
+  Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'kristijanhusak/defx-git'
+  Plug 'kristijanhusak/defx-icons'
 
-	" Icons
-	Plug 'kyazdani42/nvim-web-devicons'
+  " Icons
+  Plug 'kyazdani42/nvim-web-devicons'
 
-	Plug 'hoob3rt/lualine.nvim'
-	Plug 'nvim-treesitter/nvim-treesitter'
+  Plug 'hoob3rt/lualine.nvim'
+  Plug 'nvim-treesitter/nvim-treesitter'
 endif
 
 Plug 'tpope/vim-commentary'
