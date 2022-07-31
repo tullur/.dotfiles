@@ -24,7 +24,10 @@ return require('packer').startup(function(use)
   -- Navigation
   use 'preservim/tagbar'
 
+  -- Smart and powerful comment plugin
+  use 'numToStr/Comment.nvim'
+
   -- colorscheme
+  use 'dracula/vim'
   use 'folke/tokyonight.nvim'
-  use 'Mofiqul/dracula.nvim'
 end)
